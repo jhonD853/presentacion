@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    background-color: rgba(153, 186, 116, 0.681);
+}
+
+.gato{
+    width: 400px;
+    height: 400px;
+
+}
+.gato:hover{
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+p{
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+table{
+    border: 5px;
+    border-radius: 15pxs;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+    
+}
+header{
+    background-color: #5BE32D;
+    width: 100%;
+    clear:both ;
+    content: '';
+    display: table;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+
+}
+nav ul li a{
+    text-decoration: none ;
+    color: #444;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background:#444 ;
+    height: 5px;
+    top: 0;
+    position: absolute;
+
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+header img{
+    width: 35px;
+    float: left;
+    padding: 8px;
+}
+

@@ -1,0 +1,24 @@
+.eslider {
+    width: 600px;
+    height: 430px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.eslider img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1.5s ease;
+    justify-content: center;
+
+}
+
+.eslider img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
